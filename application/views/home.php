@@ -71,10 +71,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <li><img src="<?php echo base_url();?>assets/images/00-share/icon2.png" alt="">
               <p><a href="mailto:sales@magnolias-ratchadamri.com">sales@magnolias-ratchadamri.com</a></p>
             </li>
-            <li><img src="<?php echo base_url();?>assets/images/00-share/icon3.png" alt="">
-              <p><a href="tel:+6626522111">+66.2652.2111</a></p>
+            <li><img src="<?php echo base_url();?>/assets/images/00-share/icon3.png" alt="">
+              <p><a href="tel:+66830955054">+66830955054</a></p>
             </li>
-            <li class="line"><a href=""><img src="<?php echo base_url();?>assets/images/00-share/icon4.png" alt="">: @MRB_MQDC</a></li>
+            <li class="line"><a href="https://line.me/R/ti/p/%40dmw5484o" target="_blank"><img src="<?php echo base_url();?>assets/images/00-share/icon4.png" alt="">: @MRB_MQDC</a></li>
           </ul>
         </div>
       </div>
@@ -83,7 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <ul>
             <li>
               <h5>Connected at the Heart </h5>
-              <p>At the heart of a country held in the highest regard as a place to live, at the heart of a dream city for international travellers, there is a prestigious boulevard that is a crossroads of the city’s life and spirit.Presenting a uniquely superior world of fine architecture and greenvistas, of outstanding hotels and entrancing diversions, Ratchadamri Boulevard offers the perfect home.</p>
+              <p>At the heart of a country held in the highest regard as a place to live, at the heart of a dream city for international travellers, there is a prestigious boulevard that is a crossroads of the city’s life and spirit.Presenting a uniquely superior world of fine architecture and greenvistas, of outstanding hotels and entrancing diversions, Ratchadamri Boulevard offers the perfect home.</p><a class="cbre" href="https://www.cbre.co.th/en/Property/Detail/Buy/New-Project/Bangkok/Central-Lumpini/Magnolias-Ratchadamri-Boulevard" target="_blank"><img src="<?php echo base_url();?>assets/images/00-share/icon6.png" alt=""></a>
             </li>
             <li>
               <h5>more information</h5>
@@ -126,17 +126,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       });
       */
       
-      var date = moment.tz('Asia/Bangkok').format('DD MMM YYYY');
-      var time = moment().format("h" + " : " + "m" + " " + "A");
+     // var date = moment.tz('Asia/Bangkok').format('DD MMM YYYY');
+     // var time = moment().format("h" + " : " + "m" + " " + "A");
 
       /*$.fancybox.open({
         src: '<?php echo base_url();?>assets/images/01-home/popup.jpg',
         type: 'image'
       })*/
       
-      $(".date").text(date);
-      $(".time").text(time);
+     // $(".date").text(date);
+     // $(".time").text(time);
     </script>
-    <script src="<?php echo base_url();?>assets/script/main.js?v=2" type="text/javascript"></script>
+    <script src="<?php echo base_url();?>assets/script/main.js?v=3" type="text/javascript"></script>
   </body>
 </html>

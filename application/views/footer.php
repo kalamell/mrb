@@ -13,7 +13,7 @@
               <p><a href="tel:1265">1265</a></p>
             </li> -->
             <li><img src="<?php echo base_url();?>/assets/images/00-share/icon3.png" alt="">
-              <p><a href="tel:+66830955054">+668.3095.5054</a></p>
+              <p><a href="tel:+66830955054">+66830955054</a></p>
             </li>
             <li class="line"><a href="https://line.me/R/ti/p/%40dmw5484o" target="_blank"><img src="<?php echo base_url();?>assets/images/00-share/icon4.png" alt="">: @MRB_MQDC</a></li>
           </ul>

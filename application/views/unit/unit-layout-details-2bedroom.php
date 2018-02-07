@@ -57,7 +57,7 @@
                     <td>: 807-1162</td>
                   </tr>
                 </table>
-              </div><a class="interested button" href="<?php echo site_url('enquiries');?>">register interest</a>
+              </div><a class="interested button" href="<?php echo site_url('enquiries');?>">contact us</a>
             </div>
             <div class="anoter-unit">
               <p>you may be interested in :</p>
