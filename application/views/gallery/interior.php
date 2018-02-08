@@ -32,7 +32,7 @@
         <div class="title title-tag">
           <h1>interior</h1>
           <p>The simplicity of the plan, the distinctive architectural elements and sophisticated materials offer a perfect canvas upon which owners can create individual worlds, perfectly reflecting</p>
-          <a class="interested button" href="<?php echo site_url('enquiries');?>">register interest</a>
+          <a class="interested button" href="<?php echo site_url('enquiries');?>">contact us</a>
 
         </div>
         <div class="gallery-wrap fancybox">

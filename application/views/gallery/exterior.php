@@ -31,7 +31,7 @@
         <div class="title title-tag">
           <h1>exterior</h1>
           <p>With its dazzling sculptural appearance, Magnolias Ratchadamri Boulevard utilizes intelligent design features that, with its sensual petal-inspired curves and dramatic profile.</p>
-          <a class="interested button" href="<?php echo site_url('enquiries');?>">register interest</a>
+          <a class="interested button" href="<?php echo site_url('enquiries');?>">Contact Us</a>
         </div>
         <div class="gallery-wrap fancybox"><a class="item" href="<?php echo base_url();?>assets/images/06-gallery/exterior/6.jpg" data-caption="Magnolias Ratchadamri Boulevard, Panorama view at night">
             <div class="item-content"><img src="<?php echo base_url();?>assets/images/06-gallery/exterior/6.jpg" alt=""></div></a><a class="item" href="<?php echo base_url();?>assets/images/06-gallery/exterior/7.jpg" data-caption="Magnolias Ratchadamri Boulevard, Panorama view at night">

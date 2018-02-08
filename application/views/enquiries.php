@@ -48,6 +48,14 @@
                 <li>Please add our official line account for more information and updates.</li>
               </ul><img src="<?php echo base_url();?>assets/images/02-enquiries/line-qr.png" alt="">
             </div>
+
+            <div class="fb">
+              <ul>
+                <li><img src="../assets/images/02-enquiries/facebook.png" alt=""></li>
+                <li><a href="https://www.facebook.com/MagnoliasRatchadamriBoulevard">Add the FB : Magnolias Ratchadamri Boulevard</a></li>
+              </ul>
+            </div>
+            
           </div>
         </div>
         <div class="right box">
