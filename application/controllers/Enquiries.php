@@ -67,13 +67,13 @@ class Enquiries extends CI_Controller {
 		$msg_become = '';
 		$subject = '';
 
-		if ($this->input->post('owner')) {
-			$this->form_validation->set_rules('residence_number', 'residence_number', 'required');
+		if ($this->input->post('residences') == 'owner') {
+			//$this->form_validation->set_rules('residence_number', 'residence_number', 'required');
 			$type = 'owner';
 			$subject = 'Owner of the residences';
 		}
 
-		if ($this->input->post('become')) {
+		if ($this->input->post('residences') == 'become') {
 			$this->form_validation->set_rules('where_hear', 'where_hear', 'required');
 			$this->form_validation->set_rules('which_type', 'which_type', 'required');
 			
@@ -134,13 +134,13 @@ class Enquiries extends CI_Controller {
             }
 
             // Sending email
+            
             if ($mail->send()) {
                 redirect('enquiries/thankyou');
             } else {
                 echo "Mailer Error: " . $mail->ErrorInfo;
             }
-		}
-		
+		} 
 		redirect('enquiries');
 	}
 

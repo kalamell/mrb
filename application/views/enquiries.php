@@ -77,7 +77,7 @@
                   <?php echo form_open('enquiries/do_submit', array('id' => 'frm-become'));?>
                     <div class="radio-wrap">
                       <div class="radio-wrap-item">
-                        <input type="radio" name="residences" class="" checked="checked" id="owner" value="" ="owner">
+                        <input type="radio" name="residences" class="" checked="checked" id="owner" value="owner">
                         <label for="owner">residences</label>
                       </div>
                       <div class="radio-wrap-item">
@@ -92,7 +92,7 @@
                     <input type="text" name="address" placeholder="* Address" required>
                     <input type="text" name="country" placeholder="* Country" required>
                     <input type="text" name="city" placeholder="* City/State" required>
-                    <div class="select-wrap">
+                    <div class="select-wrap" style="display: none;">
                       <select name="where_hear" required>
                         <option value="">* Where did you hear about Magnolias?</option>
                         <option>Billboard</option>
@@ -110,7 +110,7 @@
 
                       </select>
                     </div>
-                    <div class="select-wrap">
+                    <div class="select-wrap" style="display: none;">
                       <select name="which_type" required>
                         <option value="">* Which type of unit do you prefer?</option>
                         <option>1 Bedroom </option>
@@ -241,11 +241,39 @@
             message: true
           },
           where_hear: {
+            required: {
+              depends: function() {
+                return $("input[name=residences]:checked").val() == 'become' ? true : false;
+              }
+            }
+          },
+          which_type: {
+            required: {
+              depends: function() {
+                return $("input[name=residences]:checked").val() == 'become' ? true : false;
+              }
+            }
+          }
+          /*
+          where_hear: {
             required: true
           },
           which_type: {
             required: true
-          }
+          }*/
+
+
+        }
+      })
+
+
+      $("input[name=residences]").on('click', function() {
+        var val = $(this).val();
+        console.log(val);
+        if (val == 'owner') {
+          $(".select-wrap").hide();
+        } else {
+          $(".select-wrap").show();
         }
       })
     </script>
