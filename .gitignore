@@ -6,3 +6,5 @@ application/config/email.php
 html
 upload/*
 mail.php
+sitemap.xml
+robots.txt
