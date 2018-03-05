@@ -55,6 +55,14 @@
                 <li><a href="https://www.facebook.com/MagnoliasRatchadamriBoulevard">Add the FB : Magnolias Ratchadamri Boulevard</a></li>
               </ul>
             </div>
+
+            <div class="fb">
+              <ul>
+                <li><img src="../assets/images/02-enquiries/wechat.png?v=2" alt=""></li>
+                
+                <li>Wechat number: 0830955054, Wechat ID: Magnoliawechat</li>
+              </ul>
+            </div>
             
           </div>
         </div>
