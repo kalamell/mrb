@@ -3,6 +3,19 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <script type="text/javascript">
+    window.__lc = window.__lc || {};
+    window.__lc.license = 9572590;
+    (function() {
+      var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+    </script>
+    
+
+
+
      <header id="header">
       <div class="container"><a class="logo" href="<?php echo site_url();?>"><img src="<?php echo base_url();?>assets/images/00-share/logo.png" alt=""></a>
         <div class="nav-mobile">
