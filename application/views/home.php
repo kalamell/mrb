@@ -88,10 +88,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <li>
               <h5>more information</h5>
               <ul class="sub-menu">
-                <li><a href="press-and-media.html">Press & Media</a></li>
-                <li><a href="<?php echo base_url();?>assets/download/minibrochure_feb_20.pdf">Download brochure</a></li>
-                <li><a href="corporate.html">Corporate info</a></li>
-                <li><a href="disclaimer.html">Disclaimer</a></li>
+                <li><a href="<?php echo site_url('press-and-media');?>">Press & Media</a></li>
+                <li><a href="<?php echo base_url();?>assets/download/minibrochure_feb_20.pdf" target="_blank">Download brochure</a></li>
+                <li><a href="<?php echo site_url('corporate');?>">Corporate info</a></li>
+                <li><a href="<?php echo site_url('disclaimer');?>">Disclaimer</a></li>
               </ul>
             </li>
             <li>
